@@ -1,0 +1,62 @@
+
+
+# **Turn in:** **C#_HomeWork_CH_13**
+### **Name:** *Anthony Bartholomaus*
+### Professor: *Mr. Carter*
+
+1. ##### What is an interface as the term is used on object-oriented programming?
+- *specifies the methods and properties that a class that inherits from the interface must provide. Seperate the what from the how*
+---
+2. ##### How do you define an interface?
+- *interface IComparable.*
+---
+3. ##### Can an interface have variables, fields, or properties?
+- *does not contain any code or data. they are simply declarations, and all types
+that implement the interface must provide their own implementations.*
+---
+4. ##### How do you define a method in an interface?
+- *interface ILandBound
+{
+int NumberOfLegs();
+}. p291*
+---
+5. ##### Can you instantiate an object through an interface? Why or why not?
+- *you can reference a Horse object by using an ILandBound variable p292.*
+---
+6. ##### Using the new keyword, can you declare a reference to an interface?
+- *you cannot assign an ILandBound object to a Horse variable without casting it first.*
+---
+7. ##### Can an object inherit from multiple interfaces? Can a class implement multiple interfaces? If so, how can it do so?
+- *yes, class Horse : Mammal, ILandBound, IGrazable.*
+---
+8. ##### What does it mean to explicitly implement an interface?
+- *disambiguate which method is part of which interface implementation.
+class Horse : ILandBound, IJourney
+{
+...
+int ILandBound.NumberOfLegs()
+{
+return 4;
+}
+int IJourney.NumberOfLegs()
+{
+return 3;
+}*
+---
+9. ##### What are the restrictions on interfaces?
+- *You’re not allowed to define any fields in an interface.
+You’re not allowed to define any constructors in an interface p295
+You’re not allowed to define a destructor in an interface.*
+---
+10. ##### What is the difference between an abstract class and an interface?
+- *you cant create an instance of an abstract class.*
+---
+11. ##### What is an abstract method?
+- *When the derived class inherits the abstract method from the abstract class, it must override the abstract method..*
+---
+12. ##### What is an sealed class?
+- *a class that cant be use as a base class.*
+---
+13. ##### What is an sealed method?
+- *cant override the method.*
+---

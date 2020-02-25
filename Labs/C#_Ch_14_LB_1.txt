@@ -1,0 +1,58 @@
+using System;
+
+namespace garabgecollection
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            using (Calculator calculator = new Calculator())
+            {
+                Console.WriteLine($"120 / 15 = {calculator.Divide(120, 15)}");
+            }
+            Console.WriteLine("garbage lab!");
+            //Calculator calculator = new Calculator();
+            //Console.WriteLine($"120 / 15 = {calculator.Divide(120, 15)}");
+            //int div = calculator.Divide(120 , 15);
+            //Console.WriteLine($"Program finishing{div}");
+        }
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace garabgecollection
+{
+    class Calculator : IDisposable
+    {
+        private bool disposed = false;
+        public void Dispose()
+        {
+            if (!this.disposed)
+            {
+                Console.WriteLine("Calculator being disposed");
+            }
+            this.disposed = true;
+            GC.SuppressFinalize(this);
+        }
+        public Calculator()
+        {
+            Console.WriteLine("Calculator being created");
+        }
+        ~Calculator()
+        {
+            Console.WriteLine("Calculator being finalized");
+            this.Dispose();
+        }
+        public int Divide(int first, int second)
+        {
+            return first / second;
+        }
+
+        public void Dispose()
+        {
+            Console.WriteLine("Calculator being disposed");
+        }
+    }
+}

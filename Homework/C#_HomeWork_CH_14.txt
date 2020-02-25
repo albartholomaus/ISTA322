@@ -1,0 +1,34 @@
+# **Turn in:** **C#_HomeWork_CH_14**
+### **Name:** *Anthony Bartholomaus*
+### Professor: *Mr. Carter*
+
+1. #### What is the difference between a managed resource and an unmanaged resource?
+- *Managed by the runtime and are under its direct control, Unmanaged resources are those that are not.*
+---
+2. #### When is memory for an object (reference type) allocated? When is the memory deallocated?
+- *With the new keyword, with a destructor. reference counter*
+---
+3. #### What is a destructor?
+- *Clears up managed resources. recommend to use for only when managed in unmanaged resources. get rid of using instead*
+---
+4. #### What is the difference in syntax between a constructor and a destructor?
+- *.constructor has a access modifier with the class name, destructor has a tilde, no access modifier. p317*
+---
+5. #### Give some examples of scarce resources. Why would you want to manage scarce resources?
+- *resources are just too valuable to lie around waiting for an arbitrary length. memory, database connections, or file handles*
+---
+6. #### What is exception-safe disposal?
+- *it ensures that it happens, uses finally block.*
+---
+7. #### How do you think that the using statement works for resource management? Give an informal, English language, explanation of how it works.
+- *mechanism for controlling the lifetimes of resources. It is used for removing variables that are out of scope*
+---
+8. #### What ill effects could result from attempting to dispose of a resource more than once?
+- *logical integrity of your application if you attempt to dispose of a managed object that no longer exists.*
+---
+9. #### We will look at threads later in the term. For now, what is your understanding of how threads interact with resource management? A good guess is a sufficient answer to this question.
+- *it is a set of instructions that are process in a scope.*
+---
+10. #### Why does the book recommend not attempting to force the garbage collector? Are their any exceptions to this recommendation?
+- *The book recommends that because you don't know exactly when it will have due to c# will do it automatically.*
+---
