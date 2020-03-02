@@ -1,0 +1,28 @@
+# **Turn in:** **c#_HomeWork_CH_15**
+### **Name:** *Anthony Bartholomaus*
+### Professor: *Mr. Carter*
+
+1.  ##### What is the difference between a property and a field?
+- *a field is a variable of any type. a property provides a flexible mechanism.*
+---
+2.  ##### What is the difference between a property and a method?
+- *a method is a series of statements.*
+---
+3.  ##### What is your understanding of encapsulation?
+- *hide data and behavior that are not necessary to its user.*
+---
+4.  ##### Some languages are case insensitive, that is, an ‘a” and an “A” are considered to be the same letter. C# is case sensitive. What implications does this have regarding the naming of variables, methods, and other identifiers? Do you think that the difference in case in the initial character of two different identifiers is sufficient to distinguish them¿
+- *it could result in a stack overflow error p343. NO it can be confusing. a matter of convention lower case is for Private, upper case is public.*
+---
+5.  ##### Give an example that is not in the book of an instance where you might want to use a read-only property. Give an example not in the book of an instance where you might want to uses write-only property.
+- *datetime.*
+---
+6.  ##### Can you think of a reason why you might ever want to make getters and setters private? Give an example. Also, make a case why getters and setters should never be private.
+- *If you want to change just one the access moderator of a value. Getters and setters should be public*
+---
+7.  ##### What are restrictions on the use of properties?
+- *must initialize a class, no ref or out, one get and set and cant take parameters uses value variable .*
+---
+8.  ##### What is an object initializer? What is the syntax for an object initializer?
+- *with out a constructor. var student1 = new Student() { StudentID = 1, StudentName = "John" }.*
+---

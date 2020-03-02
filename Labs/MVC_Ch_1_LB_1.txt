@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+
+<h1>Quantico HTML LAB 1</h1>
+<h2>Name: anthony Bartholomus</h2>
+<div style="background-color:lightgreen">
+<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+
+
+
+Hello world
+	<head>
+		<title>website</title>
+	</head>
+	
+	<>
+	<a href="#header">Go the headers</a>
+	
+	
+	<h1>add a caption</h1>
+	
+	<h1>This is the header seeting</h1>
+	<h2>This is the header seeting</h2>
+	<h3>This is the header seeting</h3>
+	<h4>This is the header seeting</h4>
+	<h5>This is the header seeting</h5>
+	<h6>This is the header seeting</h6>
+
+	<h1><B>ORDERED LIST</h1>
+	<ol>
+		<li><span style="color:blue;font-weight:bold">coffee</span> </li>
+		<li> <span style="color:green;font-weight:bold">cream</span></li>
+		<li> <span style="color:purple;font-weight:bold">MIlK</span></li>	
+	</ol>
+<HR />
+	
+	
+	<h1><B>UNORDERED LIST</h1>
+	<ul>
+		<li>coffe</li>
+		<li>milk </li>
+		<li>creamer </li>
+	</ul>
+	
+<HR />
+	<h1><B>DISCRIPTION LIST</h1>
+
+	<dl>
+		<dd>coffe</dd>
+		<dt>cream</dt>
+		<dd>sugar</dd>
+	</dl>
+	
+<HR />
+	<h1>This is the FIRST PARAGRAPH</h1>
+		<body>
+			<p><B>These are the words of the a great man</p>
+	    </body>	
+
+<h6>This is the SECOND HEADER</h6>
+		<body>
+			<p><I>but this is two 
+		</body>
+		<body>
+
+<h1>The svg element</h1>
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+
+<h5>table </h5>
+
+<h5>simple table</h5>
+
+
+<table>
+	<thead>
+	 <caption>stuff</caption>
+	<tr>
+		<th>breakfast</th>
+		
+		<th>lunch</th>
+		
+		<th>dinner</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>coffee</td>
+		<td>food</td>
+		<td>fatfood</td>
+	</tr>
+	</tbody>
+	<tfoot>
+	<tr>
+		<td>1</td>
+		<td>2</td>
+		<td>3</td>
+	</tr>
+	</tfoot>
+
+</table>
+
+<form action="/action_page.php" method="get">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+	<h1>My Pizza</h1>
+<input type="checkbox" name="mypizza" value="pineapple" /> pineapple
+<br>
+<input type="checkbox" name="mypizza" value="bananas" /> bananas
+<br>
+<input type="checkbox" name="mypizza" value="onions" /> peper
+
+	<h1>Gender</h1>
+<input type="radio" name="sex" value="male" checked="checked" /> male
+<br>
+<input type="radio" name="sex" value="male" checked="checked" /> female
+<br>
+
+<table rules="all">
+	<thead>
+	 <caption>music</caption>
+	<tr>
+		<th>Title</th>	
+		<th>artist</th>		
+		<th>Album</th>
+		<th>DATE</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td colspan="4">R &amp; B</td>
+	</tr>
+	</tbody>
+	<tfoot>
+	<tr>
+		<td>fun time</td>
+		<td>uscher</td>
+		<td>fun </td>
+		<td>2007 </td>
+	</tr>
+	<tr>
+		<td>sweet</td>
+		<td>bob</td>
+		<td>my mommy </td>
+		<td>2020</td>
+	</tr>
+	<td colspan="4">R &amp; B</td>
+	</tfoot>
+
+
+<select name="Ypizza"size="5"multiple="multiple">
+	<option value="bacon">bacon</option>
+	<option value="peppers">peppers</option>
+	<option value="ham">ham</option>
+	<option value="peperonie">peperonie</option>
+	<option value="cheese">cheese</option>
+
+<textarea type="text" id="fname" rows="4" cols="50"onfocus="focusFunction(this.id)" onblur="blurFunction()">
+enter your comments here
+	
+</textarea>
+
+</select>
+
+
+
+</body>
+
+
+
+
+
+
+
+</div>
+</html>

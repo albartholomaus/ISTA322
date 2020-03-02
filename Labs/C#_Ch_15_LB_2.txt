@@ -1,0 +1,13 @@
+{
+    class Polygon
+    {
+        public int NumSides { get; set; }
+        public double SideLength { get; set; }
+        
+        public Polygon()
+        {
+            NumSides = 4;//this is a properity
+            SideLength = 10.0;
+        }
+    }
+}

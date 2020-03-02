@@ -1,0 +1,38 @@
+# **Turn in:** **MVC_HomeWork_CH_2**
+### **Name:** *Anthony Bartholomaus*
+### Professor: *Mr. Carter*
+
+1.  ##### Describe what a controller does in the MVC design pattern.
+- *sets up an MVC application with predefined content.*
+---
+2.  ##### What is the ASP.NET MVC convention in naming controllers? What does HomeController.cs do?
+- *it would show you that there is a controller in. c# methods*
+---
+3.  ##### What is the name of the routing configuration file? Where is it located?
+- *.*
+---
+4.  ##### What is Razor ? How does Razor treat an expression beginning with the at symbol (@)?
+- *processes the contents of views and generates HTML that is sent to the browser. retrieving data*
+---
+5.  ##### How do View methods work?
+- *tells MVC how to generate a response to a request from a browser..*
+---
+6.  #####	What is the purpose of MVC models?
+- *focal point as controllers and views are added.*
+---
+7.  ##### What is a strongly typed view and why do we use strongly typed views?
+- *is intended to render a specific model type.*
+---
+8.  ##### What is the purpose of setting a start page URL?
+- *declarative validation rules defined with attributes.*
+---
+9.  ##### Describe the differences between HTTP GET and HTTP POST.
+- *GET request is what a browser issues normally each time someone clicks a link. POST receiving submitted data and deciding what to do
+with it.*
+---
+10. ##### Describe the two approaches to validation in web applications.
+- *asp-validation-summary attribute p.42    odelState.IsValid p41.*
+---
+11. ##### What is the role of Cascading Style Sheets (CSS) in web development?
+- *to provide your web page with a better view.*
+---

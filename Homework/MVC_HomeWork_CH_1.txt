@@ -1,0 +1,41 @@
+# **Turn in:** **ASP.NETMVC_HomeWork_CH_1**
+### **Name:** *Anthony Bartholomaus*
+### Professor: *Mr. Carter*
+
+1.  ##### What year was ASP.NET introduced?
+- *2002.*
+---
+2.  ##### Briefly describe ASP.NET Web Forms.
+- *a way to dev web apps.*
+---
+3.  ##### Briefly describe ASP.NET.
+- *development platform.*
+---
+4.  ##### Briefly describe .NET.
+- *.*
+---
+5.  ##### What is Representational State Transfer (REST)? This will take some independent research.
+- *set of constraints to be used for creating Web services.*
+---
+6.  ##### What is Agile Development ? This will take some independent research.
+- *iterative development.*
+---
+7.  ##### What is unit testing ?
+- *individual units/ components of a software are tested.*
+---
+8.  ##### What year was ASP.NET MVC introduced?
+- *2015.*
+---
+9.  ##### Describe URL routing. As part of your answer, discuss the concept of “clean URLs.”
+- *URL routing lets you configure an application to accept request URLs that do not map to physical files..*
+---
+10. ##### What is the relationship between Microsoft’s .NET platform and ASP.NET MVC?
+- *cross platform.*
+---
+11. ##### 11.	Chapter 1 does not discuss the MVC pattern specifically, and in a sense this entire course is an extended examination of the MVC pattern. Using an independent resource (such as Wikipedia) briefly state the responsibility of (a) the model, (b) the controller, and (c) the view.
+- *Model - Model represents an object or JAVA POJO carrying data. It can also have logic to update controller if its data changes.
+
+View - View represents the visualization of the data that model contains.
+
+Controller - Controller acts on both model and view. It controls the data flow into model object and updates the view whenever data changes. It keeps view and model separate.*
+---
