@@ -1,0 +1,38 @@
+# **Turn in:** **MVC_HomeWork_CH_3**
+### **Name:** *Anthony Bartholomaus*
+### Professor: *Mr. Carter*
+
+1.  #####	The book states, “Interactions with an MVC application follow a natural cycle of user actions and view updates, where the view is assumed to be stateless.” What does it mean for the view to be stateless?
+- *does not save info.*
+---
+2.  #####	The book identifies two kinds of models. Briefly describe each of them.
+- *view
+models, which represent just data passed from the controller to the view. domain models, which contain
+the data in a business domain*
+---
+3.  ##### Give an example of separation of concerns from your own life experience. This should be a simple, everyday example.
+- **
+---
+4.  ##### What is a view engine?
+- *Razor, which is the component responsible for processing a view in order to generate a response for the browser.*
+---
+5.  ##### The book notes that the three-tier structure, or n-tier model, is “the most widely used pattern for business applications.” Why do you think that this is true? An answer like, “Because it works well,” is not a sufficient answer to this question.
+- *no constraints on how the UI is implemented and provides good separation of concerns without being too
+complicated.*
+---
+6.  ##### This question requires some outside research. When we study UWP, you will see that the UWP design pattern is the Model-View-ViewModel (MVVM). What is the difference between MVC and MVVM that makes the first good for ASP.NET MVC and the second good for UWP?
+- *.*
+---
+7.  ##### Describe the two parts of the dependency injection (DI) design pattern.
+- *decouple components to enforce a strict separation between
+the parts of an application.*
+---
+8.  ##### Give an example of loose coupling from your own life experience. This should be a simple, everyday example.
+- *my cat and me.*
+---
+9.  #####	What are the two types of testing discussed in the book?
+- *.*
+---
+10.  ##### What are the seven steps of the test driven development (TDD) workflow, as stated in the book?
+- *Improving Unit Tests,Parameterizing a Unit Test,Getting Test Data from a Method or Property,Improving Fake Implementations,  Adding a Mocking Framework, Creating a Mock Object.*
+---

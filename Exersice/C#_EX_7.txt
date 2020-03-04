@@ -1,0 +1,104 @@
+namespace arrayplay
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+             int[] Numbers = new int[] {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,
+            22,23,24,25,26,27,28,29,30,31,32,33,34,35,36};
+            int[] intarray = new int[38];
+            string[] Colors = new string[] { "Red", "Black" };
+            string[] Colors2 = new string[38];
+
+            for (int i = 1; i < Numbers.Length-1; i++)
+            {
+                intarray[i] = Numbers[i] % 2;
+
+                if (intarray[i]==1)
+                {
+                    Colors2[i] = Colors[1];
+                    Console.WriteLine($" slot{i} is {Colors2[i]}");
+                }
+                else
+                {
+                    Colors2[i] = Colors[0];
+                    Console.WriteLine($" slot{i} is {Colors2[i]}");
+                }
+            }
+
+  static void Main(string[] args)
+        {
+            int[] Numbers = new int[] {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,
+                        22,23,24,25,26,27,28,29,30,31,32,33,34,35,36};
+            string[] Colors = new string[] { "Red", "Black" };
+
+            //this is random number generator
+            Random Numbersrand = new Random();
+            int number = Numbersrand.Next(Numbers.Length);
+            Console.WriteLine($"The wheel spins and the ball lands on: {Numbers[number]}");
+           
+            //this is the odd or even
+            int oddANDeven = 0;
+            oddANDeven = number % 2;
+            if (oddANDeven == 0)
+            {
+                Console.WriteLine("even");
+            }
+            else
+            {
+                Console.WriteLine("odd");
+            }
+            
+            //this is the HIGH LOW 
+            if (number <= 19)
+            {
+                Console.WriteLine("The number is low");
+            }
+            else
+            {
+                Console.WriteLine("the number is high");
+            }
+
+            //this is for the colmuns
+            int[] colOne = new int[] { 1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34 };
+            for (int i = 0; i < colOne.Length; i++)
+            {
+                if (colOne[i].Equals(number))
+                {
+                    Console.WriteLine("This is colone");
+                }
+            }
+            
+            int[] coltwo = new int[] { 2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35 };
+            for (int i = 0; i < coltwo.Length; i++)
+            {
+                if (coltwo[i].Equals(number))
+                {
+                    Console.WriteLine("This is coltwo");
+                }
+            }
+
+            int[] colthree = new int[] { 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36 };
+            for (int i = 0; i < colthree.Length; i++)
+            {
+                if (colthree[i].Equals(number))
+                {
+                    Console.WriteLine("This is colthree");
+                }
+            }
+
+            // this is the row
+            if (number <= 12)           
+                Console.WriteLine("first row");            
+            if (number >=13 && number <= 24)            
+                Console.WriteLine("second row");            
+            if (number >= 25)            
+                Console.WriteLine("third row");
+        }
+    }
+
+
+
+
+
+

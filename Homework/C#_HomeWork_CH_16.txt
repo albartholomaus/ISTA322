@@ -1,0 +1,44 @@
+# **Turn in:** **C#_HomeWork_CH_16**
+### **Name:** *Anthony Bartholomaus*
+### Professor: *Mr. Carter*
+
+1. #### Give five examples (using valid C# code) of the five bitwise operators listed in the text.
+- *The left-shift (<<) operator| The OR (|) operator| The AND (&) operator| The XOR (^) operator| The NOT (~) operator.*
+---
+2. #### Does C# implement the right-shift (>>) operator? If so, give an example of its operation using valie C# code.
+- *(>>).*
+---
+3. #### Explain in detail this code: bits & (1 << index);.
+- *It will output everywhere there is a 1 = 1 then after it shifts the bit by a said amount  .*
+---
+4. #### Explain in detail this code: bits |= (1 << index);.
+- *.*
+---
+5. #### Explain in detail this code: bits &=	(1 << index);.
+- *.*
+---
+6. #### How does C# interpret this? bool peek = bits[n];
+- *get bool at index 6*
+---
+7. #### How does C# interpret this?  bits[n]  = true;
+- *call to the set accessor for bits where index is n. turns it on*
+---
+8. #### How does C# interpret this?  bits[n]  ^=  true;
+- *bits[6] = bits[6] ^ true;
+This code works because the indexer declares both a get and a set accessor.*
+---
+9. #### Assume that users were assigned read, write, and execute permissions according to this scheme: read
+= 1, write = 2, execute = 4. How would you interpret the following user permissions:
+- *(a) permission = 0 none 0000
+(b)	permission = 1 read   0001
+(c)	permission = 2 write  0010
+(d)	permission = 3 read and write  0011
+(e)	permission = 4 execute  0100
+(f) permission = 5 execute and read 0101
+(g)	permission = 6 ex and write 0110
+(h)	permission = 7 all permission 0111
+.*
+---
+10. #### Answer the previous question by converting the decimal permissions into binary permissions.  What  does this tell you about using this scheme of permissions?
+- *above.*
+---
